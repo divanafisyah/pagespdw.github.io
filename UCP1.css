@@ -1,0 +1,97 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .navbar h1 {
+    margin: 10px;
+    font-family: 'gill-sans-mt-regular', sans-serif;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    font-family: 'gill-sans-mt-regular', sans-serif;
+  }
+  
+  .navbar ul li {
+    margin-left: 10px;
+    font-family: 'gill-sans-mt-regular', sans-serif;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+  }
+  
+  /* Style untuk greeting dan datetime */
+  .greeting,
+  .datetime {
+    margin: 10px;
+  }
+  .carousel {
+    position: center;
+    display: flex;
+    overflow: hidden;
+    width: 50;
+    height: 50;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    transition: transform 0.5s;
+  }
+
+  
+  /* Style untuk card */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+    .card {
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .card img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      
+      .card-content {
+        padding: 10px;
+      }
+      
+      .card-content h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .card-content p {
+        margin: 10px 0;
+        font-size: 14px;
+      }
+      
+      .card-content .btn {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+      }
+      
+  /* Style untuk footer */
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
